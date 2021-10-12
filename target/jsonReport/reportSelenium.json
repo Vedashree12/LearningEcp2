@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-07T09:39:00.864Z",
+        "line": 2,
+        "name": "Verification of Download link",
+        "description": "",
+        "id": "download-link;verification-of-download-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "User is on Home Page of Selenium",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User clicks on download link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "title should be\"Download | Selenium\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Download link",
+    "description": "",
+    "id": "download-link",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/seleniumDev.feature",
+    "tags": []
+  }
+]
